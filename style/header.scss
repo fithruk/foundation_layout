@@ -3,7 +3,7 @@
   height: 62px;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   // align-items: center;
 
   &__burger {
@@ -61,7 +61,7 @@
     width: 8px;
     height: 5px;
     margin-left: 11px;
-    // display: none;
+    display: none;
   }
 
   &__item {
