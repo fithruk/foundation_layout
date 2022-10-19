@@ -72,6 +72,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 35px;
+    padding-bottom: 35px;
     &__title {
       color: #2b292d;
       font-weight: 700;
@@ -79,7 +80,7 @@
       line-height: 50px;
       width: 290px;
       height: 205px;
-      letter-spacing: -0.3125pxpx;
+      letter-spacing: -0.3125px;
       margin: auto;
     }
 
