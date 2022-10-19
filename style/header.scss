@@ -1,0 +1,134 @@
+.header {
+  width: 1140px;
+  height: 62px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  &__burger {
+    display: none;
+  }
+
+  @media (max-width: 320px) {
+    background-color: #ffffff;
+    height: 64px;
+    width: 100%;
+    &__burger {
+      width: 58px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        background-color: #000000;
+        opacity: 0.15;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 1px;
+      }
+    }
+    .action-button {
+      display: none;
+    }
+  }
+}
+
+.action-button {
+  background-color: #3040c4;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+  font-family: 'Work Sans';
+  cursor: pointer;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-top: 7px;
+  margin-right: 75px;
+
+  &__arrow {
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
+    display: inline-block;
+    width: 8px;
+    height: 5px;
+    margin-left: 11px;
+  }
+
+  &__item {
+    line-height: 25px;
+    font-size: 18px;
+    color: #2b292d;
+    text-decoration: none;
+    margin-right: 50px;
+
+    &_selected {
+      font-weight: 700;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 320px) {
+    display: none;
+  }
+}
+
+.logo {
+  display: flex;
+  &__image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__name {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 25px;
+    color: #2b292d;
+    opacity: 0.6;
+  }
+
+  @media (max-width: 320px) {
+    &__image {
+      width: 48px;
+      height: 48px;
+      margin: 8px 13px 8px 15px;
+      margin-right: 13px;
+      border-radius: 8px;
+    }
+    &__description {
+      display: none;
+    }
+  }
+}
+
+.top-section {
+  background-color: #f3c6bd;
+  padding-top: 39px;
+
+  @media (max-width: 320px) {
+    padding-top: 0;
+  }
+}
