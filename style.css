@@ -52,7 +52,12 @@
 }
 
 .navigation {
+  margin-left: auto;
   margin-top: 7px;
+  width: 273px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 75px;
 }
 .navigation__arrow {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
@@ -67,7 +72,6 @@
   font-size: 18px;
   color: #2b292d;
   text-decoration: none;
-  margin-right: 50px;
 }
 .navigation__item_selected {
   font-weight: 700;
