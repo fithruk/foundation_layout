@@ -4,8 +4,7 @@
   height: 62px;
   margin: auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 }
 .header__burger {
   display: none;
@@ -62,7 +61,6 @@
   width: 8px;
   height: 5px;
   margin-left: 11px;
-  display: none;
 }
 .navigation__item {
   line-height: 25px;
@@ -194,7 +192,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 36px;
   }
   .headline__title {
     color: #2b292d;
@@ -209,7 +207,7 @@
   .headline__description {
     height: 172px;
     width: 290px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 34px;
     color: #2b292d;
     margin: auto;
