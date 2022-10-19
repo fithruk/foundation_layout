@@ -52,9 +52,7 @@
 }
 
 .navigation {
-  margin-left: auto;
   margin-top: 7px;
-  margin-right: 75px;
 }
 .navigation__arrow {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
