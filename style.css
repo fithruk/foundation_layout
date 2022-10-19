@@ -377,6 +377,7 @@ p {
   width: 555px;
 }
 .order__title {
+  margin-top: 26px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
