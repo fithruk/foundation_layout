@@ -1,3 +1,3 @@
-# foundation_layout
+# https://fithruk.github.io/foundation_layout/
 При создании страницы использованы технологии HTML/SCSS. 
 Страница адаптирована под мобильные устройства с шириной экрана 320 px
